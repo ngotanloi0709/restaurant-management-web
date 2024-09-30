@@ -1,0 +1,10 @@
+### Test API User Register
+POST http://restaurant-management-web.dev/api/user/register
+Content-Type: application/json
+
+{
+    "name": "Test User",
+    "email": "testuser@example.com",
+    "password": "password",
+    "password_confirmation": "password"
+}
